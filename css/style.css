@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #292929;
+}
+
+.Container {
+  display: flex;
+  width: 100%;
+  padding: 24px;
+}
+
+form {
+  flex-basis: 20%;
+  padding: 28px;
+  background-color: #131313;
+  border-radius: 32px;
+}
+form hr,
+.myDiv hr {
+  margin: 24px 0;
+}
+form select {
+  background-color: #232323;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 8px;
+}
+.myDiv {
+  flex-basis: 80%;
+  padding: 28px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.myDiv h1 {
+  padding-bottom: 18px;
+  color: #f2f2f2;
+}
+.Products {
+  display: flex;
+  background-color: #1e1e1e;
+  border-radius: 32px;
+}
+.Product {
+  min-width: 260px;
+  margin: 8px;
+  padding: 24px;
+  background-color: #232323;
+  border-radius: 18px;
+}
+.Product img {
+  height: 70px;
+  width: 70px;
+  float: left;
+}
+.Product h4,
+.Product p {
+  padding: 5px;
+}
